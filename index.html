@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    <title>Js project</title>
+</head>
+<body>
+    <div class="wraf-for-header">
+    <header>
+        <svg class="svg" width = "32px" height = "32px">
+            <use href =./css/images/sprite.svg#icon-film></use>
+        </svg>
+        <h1 class="main-title">Filmoteka</h1>
+        <form>
+            <label>
+            <input class="main-input" type="text" name="user-enter" placeholder="start search">
+            <svg class="svg" width = "24px" height = "24px">
+                <use href = ./css/images/sprite.svg#icon-search-2></use>
+            </svg>
+            </label>
+        </form>
+        <a class="link-in-header" href="./">Home</a>
+        <a class="link-in-header" href="./">my library</a>
+    </header>
+    </div>
+    <section>
+        <div>
+            <ul class="galery"></ul>
+        </div>
+    </section>
+   <script src="./main.js"></script> 
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(221, 219, 219);
+}
+header {
+  padding-top: 30px;
+  background-image: url(../css/images/Rectangle\ 1.jpg);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+}
+.svg {
+  margin-right: 10px;
+}
+.main-title {
+  color: #ffffff;
+}
+.main-input {
+  min-width: 300px;
+  max-width: 480px;
+  height: 30px;
+  background-color: none;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.link-in-header {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.link-in-header:not(:last-of-type) {
+  margin-right: 10px;
+}
+form {
+  align-self: center;
+  margin-top: 40px;
+}
